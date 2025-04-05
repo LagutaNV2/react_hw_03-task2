@@ -3,7 +3,6 @@ import React from 'react';
 interface ItemModel {
   listing_id: number;
   url: string;
-  // MainImage?: { url_570xN: string };
   MainImage: string | null;
   title: string;
   currency_code: string;
